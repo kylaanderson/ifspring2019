@@ -1,0 +1,89 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+}
+
+
+h1{
+	color: deepskyblue;
+	font-size: 50px;
+	font-weight: bold;
+
+}
+
+
+h2{
+	font-weight: normal;
+	font-size: 30px
+}
+
+h3{
+	color: skyblue;
+	font-weight: bold;
+	font-size: 25px}
+
+
+.class {
+	font-size: 14px;
+}
+
+
+.quote{
+	font-size: 24px; 
+	letter-spacing: 2px
+}
+
+
+#bold{
+	font-weight: bold;
+}
+
+
+#italic{
+	font-style: italic;
+}
+
+
+#oblique{
+	font-style: oblique;
+}
+
+#two{
+	letter-spacing: 2px
+}
+
+
+#fifty{
+	letter-spacing: 30px;
+}
+
+#thirty{
+	letter-spacing: -5px;
+}
+
+#lowercase{
+	text-transform: lowercase;
+}
+
+
+#uppercase{
+	text-transform: uppercase;
+}
+
+
+#capitalize{
+	text-transform: capitalize;
+}
+
+
+#underline{
+	text-decoration: underline;
+}
+
+#strikethrough{
+	text-decoration: line-through;
+}
+
+#overline{
+	text-decoration: overline;
+}
