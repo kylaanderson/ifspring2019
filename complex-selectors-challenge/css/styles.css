@@ -26,4 +26,4 @@ a div:last-of-type {font-style: italic;}
 
 #game-of-thrones ul li:last-of-type:after {content: "*";}
 
-#game-of-thrones section:after {content: "* Final Season"; font-size: 0.7rem; color: #999;}
+#game-of-thrones .seasons:after {content: "* Final Season"; font-size: 0.7rem; color: #999;}
