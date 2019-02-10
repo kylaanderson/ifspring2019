@@ -6,13 +6,13 @@ p{line-height: 1.6}
 
 li > h1 {font-size: 2.5rem}
 
-section h2 {font-size: 1rem; text-transform: uppercase;}
+h2 {font-size: 1rem; text-transform: uppercase;}
 
 body h1 {font-weight: lighter;}
 
 img {width: 100%;}
 
-.cast {width: 25%;}
+.cast > ul > li {width: 25%;}
 
 li h1 {border-top: 1px solid black}
 
