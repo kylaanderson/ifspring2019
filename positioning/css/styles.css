@@ -1,0 +1,40 @@
+#callout {
+	float: right;
+}
+
+#callout_two {
+	position: absolute;
+	right: 30px;
+	top: 820px; 
+}
+
+#callout_three {
+	background-color: green;
+	position: fixed;
+	top: 0;
+	right: 0;
+}
+
+#one {
+	background-color: red;
+	z-index: 20;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#two {
+	background-color: black;
+	z-index: 10;
+	position: absolute;
+	margin-left: 10px;
+	margin-top: 10px;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#section1 {
+	position: relative;
+}
