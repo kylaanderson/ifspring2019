@@ -62,9 +62,10 @@ hr {height: 1px solid darkred;
 	display: inline-block;
 	font-weight: bold;
 	color: #cc0000;
-	font-size: 30px;
+	font-size: 38px;
 	font-family: 'Architects Daughter', cursive;
 	margin-top: 10px;
+	text-align: center;
 }
 
 .next {
@@ -133,11 +134,13 @@ hr {height: 1px solid darkred;
 
 .ingredients{
 	margin-bottom: 30px;
+	text-align: center;
 }
 
 ul li { 
     list-style: circle;
     line-height: 27px;
+    text-align: left;
 
 }
 
@@ -157,6 +160,11 @@ ul li {
 	margin-left: 50%;
 	transform: translate(-50%);
 	margin-bottom: 0;
+	text-align: center;
+}
+
+ol li{
+	text-align: left;
 }
 
 body {
