@@ -160,7 +160,7 @@ ul li {
 }
 
 body {
-	background-image: linear-gradient(white, #e6ffe6, #ccffcc, rgba(0,220,50,.5));
+	background-image: linear-gradient(white, #e6ffe6, #ccffcc, #b3ffb3);
 }
 
 .source {
