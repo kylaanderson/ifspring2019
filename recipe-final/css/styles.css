@@ -117,7 +117,7 @@ hr {height: 1px solid darkred;
 	margin: 0px;
 	margin-left: 50%;
 	transform: translate(-50%);
-	margin-bottom:30px;
+	margin-bottom:40px;
 }
 
 .row: {
@@ -133,7 +133,7 @@ hr {height: 1px solid darkred;
 #right {width: 58%}
 
 .ingredients{
-	margin-bottom: 30px;
+	margin-bottom: 40px;
 	text-align: center;
 }
 
@@ -149,14 +149,14 @@ ul li {
 }
 
 #section1{
-	width: 340px;	
+	width: 320px;	
 	margin-left: 50%;
 	transform: translate(-50%);
 	margin-top: 0;
 }
 
 .directions {
-	width: 340px;
+	width: 320px;
 	margin-left: 50%;
 	transform: translate(-50%);
 	margin-bottom: 0;
