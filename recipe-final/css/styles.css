@@ -1,0 +1,188 @@
+body {font-family: "Helvetica", sans-serif;
+color: green;
+font-size:18px;}
+
+h1 {color: rgba(0,300,60,1);
+	background-color: darkred;
+	padding: 10px;
+	margin: 0;
+	text-align: center;
+	font-size: 40px;
+	min-width: 320px;
+	max-width: 480px;
+	font-family: 'Architects Daughter', cursive;
+}
+hr {height: 1px solid darkred;
+	color: darkred;
+	background-color: darkred;
+	border-color: firebrick;}
+
+#bear {
+	margin-top: 25px;
+	max-width: 60%;
+}
+
+.center {
+	text-align: center;
+	min-width: 320px;
+	max-width: 480px;
+}
+
+#caption {
+	font-style: italic;
+	margin: 0;
+	margin-bottom: 30px; 
+	text-align: center;
+	font-size: 14px;
+	min-width: 320px;
+	max-width: 480px;
+}
+
+.top {
+	min-width: 365px;
+	max-width: 420px;
+	margin-left: 50%;
+	transform: translate(-50%);
+}
+
+.makes {
+	display: inline-block;
+	font-weight: bold;
+	color: #cc0000;
+	font-size: 16px;
+	font-family: 'Architects Daughter', cursive;
+}
+
+#make {
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+.bold {
+	display: inline-block;
+	font-weight: bold;
+	color: #cc0000;
+	font-size: 30px;
+	font-family: 'Architects Daughter', cursive;
+	margin-top: 10px;
+}
+
+.next {
+	display: inline-block;
+	margin-left: 10px;
+	margin-top: 5px;
+	padding-top: 0;
+	margin-right: 5px;
+	font-size: 15px;
+	line-height: 22px;
+}
+
+.two {
+	font-weight: bold;
+	display: inline-block;
+	color: #cc0000;
+	font-family: 'Architects Daughter', cursive;
+	margin-left: 16px;
+	margin-top: 5px;
+	padding-top: 0;
+	font-size: 16px;
+	line-height: 22px;
+}
+
+#red {
+	color: darkred;
+}
+
+#red2 {
+	color: darkred;
+}
+
+#darkgreen {
+	color: #004d00;
+}
+
+#darkgreen2 {
+	color: #004d00;
+}
+
+#box {
+	border-style: solid;
+	border-color: darkred;
+	border-width: 2px;
+	width: 290px;
+	height: 140px;
+	padding-top: 3px;
+	padding-bottom: 5px;
+	margin: 0px;
+	margin-left: 50%;
+	transform: translate(-50%);
+	margin-bottom:30px;
+}
+
+.row: {
+	display: flex;
+}
+
+.column{
+	float:left;
+}
+
+#left {width: 42%}
+
+#right {width: 58%}
+
+.ingredients{
+	margin-bottom: 30px;
+}
+
+ul li { 
+    list-style: circle;
+    line-height: 27px;
+
+}
+
+.source {
+	font-size: 12px;
+}
+
+#section1{
+	width: 340px;	
+	margin-left: 50%;
+	transform: translate(-50%);
+	margin-top: 0;
+}
+
+.directions {
+	width: 340px;
+	margin-left: 50%;
+	transform: translate(-50%);
+	margin-bottom: 0;
+}
+
+body {
+	background-image: linear-gradient(white, #e6ffe6, #ccffcc, rgba(0,220,50,.5));
+}
+
+.source {
+	width: 370px;
+	margin-left: 50%;
+	transform: translate(-50%);
+	background-color: darkgreen;
+	color: lightgreen;
+	padding: 10px;
+	margin-bottom: 0;
+}
+
+#last {
+	margin-bottom: 0px;
+}
+
+.source1 {
+	width: 370px;
+	margin-left: 50%;
+	transform: translate(-50%);
+	color: firebrick;
+	padding: 10px; 
+	padding-top: 60px;
+	font-size: 14px;
+}
