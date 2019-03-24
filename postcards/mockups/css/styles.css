@@ -1,0 +1,45 @@
+body {
+	font-family: "Bradley Hand";
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+.large {
+	width: 700px;
+}
+
+.relative {
+	position: relative;
+}
+
+.absolute {
+	position: absolute;
+	text-align: left;
+	color: white;
+	font-size: 28px;
+	width:200px;
+	margin-top: 150px;
+	margin-left: 30px;
+}
+
+.absolute2 {
+	position: absolute;
+	text-align: left;
+	color: white;
+	font-size: 14px;
+	width:200px;
+	margin-top: 330px;
+	margin-left: 110px;
+}
+
+.small {
+	width: 300px;
+}
+
+.all {
+	text-align: center;
+}
