@@ -1,0 +1,18 @@
+body {
+	background-image: linear-gradient(black,darkslategray,teal,teal,cadetblue,powderblue);
+	background-repeat: no-repeat;
+	color: white;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: 0;
+	padding: 0;
+	height: 1000px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+p {
+	font-size: 14px;
+}
+
