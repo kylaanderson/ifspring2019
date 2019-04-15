@@ -153,6 +153,16 @@ h5 {
 	h2{
 		font-size: 34px;
 	}
+	.link{
+		width:21%;
+	}
+	#critic{
+		width:20%;
+	}
+	.small{
+		width: 14%;
+		display: inline-block;
+	}
 }
 
 @media screen and (min-width: 600px) {
@@ -173,6 +183,16 @@ h5 {
 	}
 	h5{
 		line-height: 34px;
+	}
+	.link{
+		width:18%;
+	}
+	#critic{
+		width:30%;
+	}
+	.small{
+		width: 14%;
+		display: inline-block;
 	}
 }
 
@@ -199,7 +219,7 @@ h5 {
 
 @media screen and (min-width: 1150px) {
 	#logo {
-		width: 60%;
+		width: 40%;
 		left:0%;
 		transform: translate(0%);
 		display: inline-block;
@@ -209,20 +229,20 @@ h5 {
 	}
 	.link{
 		display: inline-block;
-		width: 6%;
+		width: 10%;
 		line-height: 30px;
 		padding:0;
 		margin: 0;
 }
 	#critic{
-		width: 8%;
+		width: 16%;
 	}
 	.topiclinks {
 		padding-top: 40px;
 		padding-right: 40px;
 		margin-bottom: 0;
 		padding-bottom: 0px;
-		font-size: 14px;
+		font-size: 18px;
 	}
 	#plot {
 		font-size: 13px;
@@ -234,6 +254,10 @@ h5 {
 		margin: 0;
 		font-size: 2px;
 		line-height: 1px;
+	}
+	.small{
+		width: 5%;
+		display: inline-block;
 	}
 }
 
@@ -296,9 +320,12 @@ h5 {
 		padding-bottom: 20px;
 	}
 	.link{
-		width: 9%;
+		width: 10%;
 		padding:0;
 		margin: 0;
+	}
+	#critic{
+		width:18%;
 	}
 	body{
 		font-size: 18px;
@@ -308,11 +335,18 @@ h5 {
 @media screen and (min-width: 1250px) {
 	#plot {
 		font-size: 15px;
-		padding-bottom: 30px;
+		padding-bottom: 40px;
 	}
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (min-width: 1550px) {
+	#plot {
+		font-size: 16px;
+		padding-bottom: 55px;
+	}
+}
+
+@media screen and (max-width: 500px) {
 	body{
 		font-size: 12px;
 	}
@@ -329,8 +363,18 @@ h5 {
 	h4{
 		font-size: 16px;
 	}
+	.link{
+		width:17%;
+	}
+	.small{
+		width:13%;
+		display: inline-block; 
+	}
+	#critic{
+		width:30%;
+	}
 	.topiclinks {
-		font-size: 10px;
+		font-size: 11px;
 		padding-bottom: 0;
 	}
 	#first {
@@ -365,6 +409,15 @@ h5 {
 		padding-left: 35px;
 		padding-right: 35px;
 		font-size: 11px;
+	}
+	.link{
+		width:21%;
+	}
+	#critic{
+		width:20%;
+	}
+	.small{
+		width: 14%;
 	}
 }
 
@@ -401,5 +454,53 @@ h5 {
 	}
 	h4{
 		font-size: 30px;
+	}
+}
+
+@media screen and (min-width: 1730px) {
+	#plot {
+		font-size: 20px;
+		padding-bottom: 40px;
+	}
+}
+
+@media screen and (min-width: 1800px) {
+	#plot {
+		font-size: 24px;
+		padding-bottom: 50px;
+	}
+}
+
+@media screen and (min-width: 1950px) {
+	#plot {
+		font-size: 26px;
+		padding-bottom: 40px;
+	}
+}
+
+@media screen and (min-width: 2000px) {
+	#plot {
+		font-size: 26px;
+	}
+}
+
+@media screen and (min-width: 1240px) {
+	#plot {
+		font-size: 14px;
+		padding-bottom: 40px;
+	}
+}
+
+@media screen and (min-width: 1370px) {
+	#plot {
+		font-size: 17px;
+		padding-bottom: 40px;
+	}
+}
+
+@media screen and (min-width: 1500px) {
+	#plot {
+		font-size: 19px;
+		padding-bottom: 40px;
 	}
 }
