@@ -1,0 +1,506 @@
+a#btn_apple {
+	display: block;
+	width: 100px;
+	height: 100px;
+	box-sizing: border-box;
+	border-radius: 18px;
+	margin: auto;
+	margin-top: 75px;
+	padding-top: 8px;
+	background: linear-gradient(silver, gray);
+	color: white;
+	text-align: center;
+	font-size: 60px;
+}
+
+a#btn_apple:hover {
+	background: linear-gradient(gray, black);
+	color: silver;
+
+}
+
+a#btn_coca_cola{
+	position: absolute;
+	left: 50%
+	top: 50%;
+	transform: translate(-50%, -50%);
+	padding: 0;
+	margin-top: 130px;
+
+}
+
+img#cola {
+	width: 60%;
+}
+
+img#cola:hover {
+  left: 30%;
+  top: 80%;
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+a#btn_harley_davidson {
+	display: block;
+	width: 240px;
+	box-sizing: border-box;
+	margin: auto;
+	margin-top: 100px;
+	padding-top: 8px;
+	background: black;
+	text-decoration: none;
+	font-family: 'IBM Plex Sans Condensed', sans-serif;;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	font-size: 26px;
+}
+
+a#btn_harley_davidson:hover {
+	color:orange;
+	transform: rotate(-20deg);
+}
+
+a#btn_Michael_Kors {
+	display: block;
+	width: 220px;
+	box-sizing: border-box;
+	margin: auto;
+	margin-top: 100px;
+	padding-top: 8px;
+	background: white;
+	text-decoration: none;
+	font-family: Arial, sans-serif;;
+	font-weight: bold;
+	color: black;
+	text-align: center;
+	font-size: 26px;
+}
+
+a#btn_Michael_Kors:hover {
+	background: black;
+	color: white;
+	font-weight: normal;
+	text-decoration: underline;
+}
+
+a#btn_lyft {
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	box-sizing:; border-box;
+	margin: auto;
+	text-align: center;
+}
+
+#lyft {
+	width: 60%;
+	padding-top: 50px;	
+}
+
+#lyft:hover {
+	width:80%;
+	padding-top: 30px;
+}
+
+#btn_OFA {
+	font-family: 'Merriweather Sans', sans-serif;
+	font-weight: 800;
+	color: white;
+	text-decoration: none;
+	background: deepskyblue;
+	width: 100px;
+	height: 100px;
+	box-sizing: border-box;
+	font-size: 40px;
+	display: block;
+	border-radius: 2px;
+	margin: auto;
+	margin-top: 75px;
+	padding-top: 25px;
+	text-align: center;
+}
+
+#btn_OFA:hover {
+	background: dimgrey;
+	transition: .5s;
+}
+
+#IDEO {
+	width: 70%;
+	height: 70%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50% -50%);
+	margin-top: 35px;
+}
+
+#IDEO:hover {
+	transition: 0.70s;
+  -webkit-transition: 0.70s;
+  -moz-transition: 0.70s;
+  -ms-transition: 0.70s;
+  -o-transition: 0.70s;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+} 
+
+#btn_Bissengers{
+	display: block;
+	box-sizing: border-box;
+	margin: auto;
+	margin-top: 75px;
+	padding-top: 8px;
+	margin-left: 0;
+	text-align: center;
+	left: 50%;
+}
+
+#Biss{
+	width: 70%;
+}
+
+#btn_Bissengers:hover{
+	background-color: khaki;
+}
+
+#btn_Nike {
+	display: block;
+	width: 100px;
+	height: 100px;
+	box-sizing: border-box;
+	border-radius: 18px;
+	margin: auto;
+	margin-top: 60px;
+	padding-top: 8px;
+	margin-left: 50px;
+	text-align: center;
+	font-size: 60px;
+}
+
+#Nike{
+	width: 150%;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50% -50%);
+
+}
+
+#Nike:hover {
+	width: 100%;
+	margin-left: 30px;
+	margin-top: 30px;
+}
+
+#btn_MissouriGarden {
+	font-family: 'Cinzel', serif;
+	font-weight: bold;
+	text-decoration: none;
+	color: green;
+	display: block;
+	margin-top: 100px;
+	font-size: 24px;
+
+}
+
+#btn_MissouriGarden:hover {
+	background-color: darkgreen;
+	color: lightgreen;
+	border-radius: 10px;
+	width: 270px
+	margin-left:20px;
+}
+
+#btn_Hulk {
+	display: inline-block;
+				margin:auto;
+				margin-top: 100px;
+				padding: 8px 16px;
+				background-color: black;
+				color: white;
+				font-family: sans-serif;
+				font-size: 30px;
+				font-weight: bold;
+				text-transform: uppercase;
+				text-decoration: none;
+				letter-spacing: -1px;
+
+}
+
+#btn_Hulk:hover {
+	font-family: 'Gochi Hand', cursive;
+	font-size:40px;
+	color: gold;
+}
+
+#btn_Tesla {
+	display: inline-block;
+	margin:auto;
+	margin-top: 100px;
+	padding: 8px 16px;
+	background-color: grey;
+	color: white;
+	font-family: sans-serif;
+	font-size: 30px;
+	border-radius: 25px;
+	text-transform: uppercase;			
+	text-decoration: none;
+}
+
+
+#btn_Tesla:hover {
+	box-shadow: 2px 2px 1px rgba(50, 50, 50, 0.75);
+	background-color: crimson;
+}
+
+#btn_ColorRun{
+	font-family: sans-serif;
+	display: inline-block;
+	margin:auto;
+	margin-top: 100px;
+	padding: 8px 16px;
+	background-color: teal;
+	color: #eb1478;
+	font-size: 32px;
+	font-weight: bold;
+	border-radius: 5px;
+	text-decoration: none;
+	letter-spacing: -1px;
+
+}
+
+
+#btn_ColorRun:hover {
+	font-family: 'Lobster', cursive;
+	background: linear-gradient(gold, purple);
+	color:skyblue;
+	font-size: 40px;
+
+}
+
+#btn_Moo {
+	font-family: 'Montserrat', sans-serif;
+	display: inline-block;
+	margin:auto;
+	margin-top: 100px;
+	padding: 8px 16px;
+	background-color: lightblue;
+	color: teal;
+	font-size: 40px;
+	border-radius: 5px;
+	text-decoration: none;
+
+}
+
+#btn_Moo:hover {
+	background: linear-gradient(skyblue, teal, navy);
+	text-shadow: 2px 2px 1px rgba(50, 50, 50, 0.75);
+	color: white;
+}
+
+#potter {
+	height: 150px;
+}
+
+#btn_Pottermore {
+	font-family: 'Montserrat', sans-serif;
+	display: inline-block;
+	margin:auto;
+	padding: 16px 16px;
+	margin-top: 30px;
+	background-color: white;
+	font-size: 40px;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+#btn_Pottermore:hover {
+	background-color: navy
+}
+
+#btn_Kittens {
+	background-color: crimson;
+	display: inline-block;
+	margin:auto;
+	margin-top: 100px;
+	padding: 8px 16px;
+	color: white;
+	font-family: "Arial Narrow", sans-serif;
+	font-size: 18px;
+	font-weight: bolder;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 0px;
+}
+
+#btn_Kittens:hover {
+	background: -webkit-linear-gradient(gold, crimson);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Arial;
+  font-size: 24px;
+  letter-spacing: -2px;
+}
+
+#NewYorker {
+	width: 250px;
+	position: relative;
+	display: inline-block;
+	margin:auto;
+	margin-top: 0px;
+	padding: 8px;
+	color: white;
+}
+
+.container {
+	position: relative;
+	width: 250px;
+}
+
+.second {
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;	
+	opacity: 0;
+	transition: .3s ease;
+}
+
+.container:hover .second {
+	opacity: 1;
+}
+
+
+#button {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+	top: 200px;
+}
+
+#n {
+	display: inline-block;
+	background-color: crimson;
+	color:white;
+	font-weight: bold;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size: 40px;
+	margin-top: 110px;
+}
+
+#p {
+	display: inline-block;
+	background-color: black;
+	color:white;
+	font-weight: bold;
+	padding-left: 16px;
+	padding-right: 16px;
+	font-size: 40px;
+}
+
+#r {
+	display: inline-block;
+	background-color: royalblue;
+	color:white;
+	font-weight: bold;
+	padding-left: 18px;
+	padding-right: 18px;
+	font-size: 40px;
+}
+
+#n:hover {
+	background-color: red;
+}
+
+
+#p:hover {
+	background-color: silver;
+}
+
+#r:hover {
+	background-color: deepskyblue;
+}
+
+#btn_facebook {
+	display: block;
+	width: 100px;
+	height: 100px;
+	margin: auto;
+	margin-top: 55px;
+	padding: 15px;
+	padding-top: 0px;
+	padding-bottom: 40px;
+	color: rgb(65,110,200);
+	text-align: center;
+	font-size: 100px;
+}
+
+#btn_facebook:hover {
+	background-color: rgb(65,110,200);
+	color: white;
+
+}
+
+#btn_hsn {
+	display: block;
+	font-family: 'Work Sans', sans-serif;
+	width: 100px;
+	height: 100px;
+	box-sizing: border-box;
+	border-radius: 50px;
+	margin: auto;
+	margin-top: 75px;
+	padding-top: 28px;
+	background: linear-gradient(deepskyblue, mediumblue);
+	color: white;
+	font-weight: medium;
+	text-align: center;
+	font-size: 40px;
+	text-decoration: none;
+}
+
+#btn_hsn:hover {
+	background: linear-gradient(mediumvioletred, deeppink);
+	text-decoration: underline;
+}
+
+#btn_Samsung {
+	display: block;
+	width: 50%
+	box-sizing: border-box;
+	margin-top: 60px;
+	padding-left: 0;
+	margin-left: 0;
+}
+
+#SS {
+	width: 240px;
+}
+
+#SS:hover {
+	-webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  transition: 0.5s;
+}

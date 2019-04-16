@@ -1,0 +1,25 @@
+h1{font-family: 'Dancing Script', cursive; color: purple; font-size: 45px;}
+
+h2{font-family: 'Dancing Script', cursive; color:mediumorchid; font-size: 24px; font-weight: normal;}
+
+p{font-family: 'Jacques Francois', serif; color: lightblue; font-style: italic; font-size: 20px;}
+
+span.title {font-weight: bold; color:white;}
+
+body {background: url(https://images.unsplash.com/photo-1531306728370-e2ebd9d7bb99?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80); background-size: 100% 100%;}
+
+.lavender {color:lavender;}
+
+.plum{color:plum}
+
+.white{color:white}
+
+.khaki{color:khaki;}
+
+.gold{color:gold; font-weight: bolder;}
+
+.khakib {color:khaki;font-style: normal; font-weight: bold;}
+
+#secret{color:white;font-style: normal;}
+
+#end{color:black; font-weight: bold; font-style: normal;}

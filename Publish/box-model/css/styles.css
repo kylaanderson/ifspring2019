@@ -1,0 +1,153 @@
+body {
+	font-family: 'Archivo Narrow', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3, h4, h5, p {
+	margin-top: 0;
+}
+
+header {
+	text-align: center;
+	background: url(https://steemitimages.com/DQmSWSkaLuDajsBsaGs8FXLETxqzzTHePU7fRuSZm5KV8RQ/SUN-0454_43e1049e-6b1a-4411-ba4d-d901faca2012_2048x.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height:480px;
+	padding-top: 163px;
+	box-sizing: border-box;
+	color: navy;
+}
+
+header h1 {
+	font-size: 80px;
+	margin-bottom: 10px;
+}
+
+header h2 {
+	font-size: 30px;
+	margin-top: 13px;
+
+}
+
+.center_column {
+	width: 960px;
+	margin: auto;
+}
+
+.floated {
+	float: right;
+	width: 400px;
+	height: 300px;
+	margin: 0px 0px 22px 40px;
+}
+
+h3 {
+	text-align: center;
+	font-size: 40px;
+	padding-top: 45px;
+	padding-bottom: 0px;
+	margin-bottom: 37px;
+}
+
+section:first-of-type {
+	background-color: rgb(80,40,60);
+	height: 713px;
+	box-sizing: border-box;
+	color: orange;
+}
+
+section p {
+	margin: 0px;
+	margin-bottom: 16px;
+	padding: 0px;
+	line-height: 1.4;
+	font-size: 18px;
+
+}
+
+section:nth-of-type(2) {
+	background-color: rgb(50,20,60);
+	height: 687px;
+	margin: auto;
+}
+
+.image_text {
+	width: 960px;
+	margin: auto;
+	color: orange;
+
+}
+
+h4 {
+	margin: 3px 0px 9px 0px;
+	font-size: 20px;
+}
+
+.image{
+	margin-left: auto;
+	margin-right: 12px;
+	margin-top: 0;
+	margin-bottom: 24px;
+	float: left;
+}
+
+.pic_txt {
+	margin: 0;
+	margin-bottom: 43px;
+	width: 420px; 
+}
+
+.column {
+	float: left;
+	width: 50%;
+
+}
+
+#last_section{
+	padding-top: 46px;
+}
+
+.last_paragraph {
+	text-align: center;
+	margin: auto;
+}
+
+.parent {
+	text-align: center;
+}
+
+.last_paragraph p {
+	font-size: 26px;
+	line-height: 35px;
+	width: 713px;
+	display: inline-block;
+}
+
+section:nth-of-type(3) {
+	background-color: rgb(25,20,60);
+	height: 400px;
+	padding: 0;
+	color: rgb(255,165,0);
+}
+
+section:last-of-type {
+	height: 105px;
+	background-color: rgb(40,50,102);
+	box-sizing: border-box;
+
+}
+
+.lastdiv {
+	width: 960px;
+	margin: auto;
+	font-size: 20px;
+	color: white;
+}
+
+.lastdiv p {
+	padding-top: 41px;
+
+}
+
