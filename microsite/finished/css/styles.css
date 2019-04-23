@@ -1,0 +1,764 @@
+body {
+	margin: 0;
+	padding:0;
+	font-family: futura;
+	font-size: 15px;
+	background-image: linear-gradient(#010F0F, #286868, #286868, #286868, #286868, #010F0F)
+}
+
+header {
+	margin:0;
+	padding:0;
+}
+
+.link{
+	display: inline-block;
+	width: 14%;
+	padding:0;
+	margin: 0;
+}
+
+#critic {
+	width: 27%;
+}
+
+.image{
+	width: 100%;
+}
+
+.large{
+	display: none;
+	position: relative;
+	width: 100%;
+	top: 0;
+	left: 50%;
+	transform: translate(-50%);
+	z-index: 100;
+}
+
+.himage{
+	text-align: center;
+}
+
+.halfimage{
+	width:50%;
+}
+
+.thrimage{
+	width:75%;
+}
+
+.caption {
+	text-align: center;
+	display: inline-block;
+	color: #78C7C7;
+	font-size:.9em;
+}
+
+.season{
+	width: 16%;
+}
+
+#logo {
+	position: relative;
+	width: 100%;
+	top: 0;
+	left: 50%;
+	transform: translate(-50%);
+	z-index: 100;
+}
+
+a{
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	padding-top: 0;
+	padding-top: 15px;
+	text-decoration: none;
+}
+
+.totop {
+	position: fixed;
+	right: 3%;
+	bottom:1.5%;
+	background-color: teal;
+	padding: 10px;
+	font-weight: normal;
+	z-index: 1000;
+}
+
+.fa fa-angle-double-up{
+	color: white;
+	font-size:50px;
+	right:2px;
+}
+
+a:hover {
+	font-weight: normal;
+}
+
+.topiclinks {
+	text-align: center;
+	font-weight: bold;
+	font-size: 16px;
+	color: white;
+	padding-top: 0;
+	padding-top: 15px;
+}
+
+h2 {
+	font-weight: normal;
+	color:white;
+	text-align: center;
+	font-size: 40px;
+}
+
+.text {
+	color: #BDEDED;
+	font-weight: normal;
+}
+
+.topic {
+	padding: 40px 40px 0px 40px;
+}
+
+#cast{
+	padding-top:0;
+}
+
+h3 {
+	text-align: center;
+	color: #78C7C7;
+	font-size:20px;
+}
+
+.actor{
+	color:white;
+	font-weight:bold;
+}
+
+.character{
+	font-weight: bold;
+}
+
+.end{
+	color: #ACE6E6;
+}
+
+h4 {
+	color: #78C7C7;
+	text-align: center;
+}
+
+h5 {
+	color: white;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 16px;
+	padding-top:10px;
+	margin:0;
+	text-align: center;
+}
+
+.subtitle {
+	margin:0;
+	padding:0;
+	color: #78C7C7;
+	font-size: 12px;
+	line-height: 22px;
+	text-align:center;
+	font-weight: normal;
+}
+
+.award{
+	font-weight: bold;
+	color:white;
+}
+
+.credits{
+	background-color: #010F0F;
+	color:#286868;
+	font-size:12px;
+	line-height: 16px;
+	text-align: left;
+	font-weight:normal;
+	padding-top: 2px;
+	padding-left: 10px;
+	padding-bottom:3px;
+	left:0px;
+	right:0;
+}
+
+#foot {
+	margin: 0;
+	padding:0px;
+	padding-top: 24px;
+	width:100%;
+	height:100px;
+	background-color:none;
+}
+
+@media screen and (min-width: 501px) {
+	body{
+		font-size: 14px;
+	}
+	h2{
+		font-size: 34px;
+	}
+	.link{
+		width:21%;
+	}
+	#critic{
+		width:20%;
+	}
+	.small{
+		width: 14%;
+		display: inline-block;
+	}
+	.text{
+		padding-left: 1%;
+		padding-right: 1%;
+		font-size: 13px;
+	}
+}
+
+@media screen and (min-width: 600px) {
+	body{
+		font-size: 16px;
+	}
+	.topiclinks{
+		font-size: 20px;
+	}
+	.text{
+		padding-left: 2%;
+		padding-right: 2%;
+		font-size: 15px;
+	}
+}
+
+@media screen and (min-width: 750px) {
+	body{
+		font-size: 16px;
+	}
+	.text{
+		padding: 0;
+		padding-left: 2%;
+		padding-right: 2%;
+		font-size: 16px;
+	}
+	.subtitle{
+		font-size: 20px;
+	}
+	h5{
+		line-height: 34px;
+	}
+	.link{
+		width:18%;
+	}
+	#critic{
+		width:30%;
+	}
+	.small{
+		width: 14%;
+		display: inline-block;
+	}
+	.totop:after {
+		 content: " Top";
+		 color:white;
+	}
+}
+
+@media screen and (min-width: 900px) {
+	body{
+		font-size: 18px;
+	}
+	.text{
+		font-size: 20px;
+	}
+	h2{
+		font-size: 50px;
+	}
+	h3{
+		font-size: 30px;
+	}
+	h5{
+		font-size: 28px;
+	}
+	h4{
+		font-size: 22px;
+	}
+	.topiclinks {
+		font-size: 24px;
+	}
+	.credits{
+		font-size: 18px;
+		line-height: 25px;
+	}
+	.subtitle{
+		line-height: 50px;
+	}
+}
+@media screen and (min-width: 1000px) {
+	.text{
+		font-size: 22px;
+	}
+	h2{
+		font-size: 55px;
+	}
+	h3{
+		font-size: 35px;
+	}
+	h5{
+		font-size: 32px;
+		line-height: 35px;
+	}
+	h4{
+		font-size: 25px;
+	}
+	.subtitle{
+		font-size:25px;
+		line-height: 50px;
+	}
+	.topiclinks {
+		font-size: 24px;
+	}
+	body{
+		padding: 0;
+		font-size: 20px;
+	}
+	.text {
+		padding: 0;
+	}
+}
+
+@media screen and (min-width: 1150px) {
+	.link{
+		width: 18%;
+		line-height: 30px;
+		padding:0;
+		margin: 0;
+}
+	#critic{
+		width: 24%;
+		display: inline-block;
+	}
+	.topiclinks {
+		padding-top: 30px;
+		width: 100%;
+		margin-bottom: 0;
+		padding-bottom: 2%;
+		font-size: 24px;
+		right:0;
+	}
+	.small{
+		width: 15%;
+		display: inline-block;
+	}
+	body{
+		padding:0;
+		font-size: 22px;
+	}
+	.text{
+		padding-left: 0%;
+		padding-right: 0%;
+	}
+	.totop{
+		font-size:24px;
+	}
+	.image{
+		width: 50%;
+	}
+
+	#plot{
+		padding-bottom:4%;
+	}
+	.caption{
+		width:50%;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	body{
+		font-size: 12px;
+	}
+	h2{
+		font-size: 30px;
+	}
+	h3{
+		font-size: 18px;
+	}
+	h5{
+		font-size: 16px;
+		line-height: 20px;
+	}
+	h4{
+		font-size: 16px;
+	}
+	.topiclinks {
+		font-size: 10px;
+		padding-bottom: 0;
+	}
+	#first {
+		padding: 0;
+		margin-top: 0;
+	}
+	.topic{
+		padding-left: 38px;
+		padding-right: 38px;
+	}
+}
+
+@media screen and (min-width: 1350px) {
+	#plot {
+		font-size: 17px;
+		padding-bottom: 50px;
+	}
+}
+
+@media screen and (min-width: 1600px) {
+	.topiclinks {
+		padding-top: 20px;
+		padding-right: 0%;
+		margin-bottom: 0;
+		padding-bottom: 20px;
+		font-size: 30px;
+	}
+	#plot {
+		padding-bottom: 40px;
+	}
+	.link{
+		width: 18%;
+		padding:0;
+		margin: 0;
+	}
+	.small{
+		width:14%;
+	}
+	#critic{
+		width:25%;
+	}
+	body{
+		font-size: 27px;
+	}
+	h2{
+		font-size: 70px;
+	}
+	h3{
+		font-size: 40px;
+	}
+	h5{
+		font-size: 38px;
+		line-height: 45px;
+	}
+	h4{
+		font-size: 34px;
+	}
+	.subtitle {
+		font-size: 26px;
+		line-height: 45px;
+	}
+	#first{
+		padding-top: 20px;
+	}
+	#s1{
+		padding-top: 20px;
+	}
+	#s2{
+		padding-top: 20px;
+	}
+	#critrec{
+		padding-top: 20px;
+	}
+	.end{
+		padding-top: 20px;
+	}
+	#aa{
+		padding-top: 60px;
+	}
+	.year{
+		margin-top: 40px;
+	}
+	#twent{
+		padding-top: 60px;
+	}
+	.text{
+		font-size: 28px;
+		padding-top: 20px;
+	}
+}
+
+@media screen and (min-width: 1250px) {
+	#plot {
+		font-size: 15px;
+		padding-bottom: 40px;
+	}
+	.text{
+		font-size: 27px;
+	}
+}
+
+@media screen and (min-width: 1550px) {
+	#plot {
+		font-size: 16px;
+		padding-bottom: 55px;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	body{
+		font-size: 12px;
+	}
+	h2{
+		font-size: 30px;
+	}
+	h3{
+		font-size: 18px;
+	}
+	h5{
+		font-size: 16px;
+		line-height: 20px;
+	}
+	h4{
+		font-size: 16px;
+	}
+	.link{
+		width:17%;
+	}
+	.small{
+		width:13%;
+		display: inline-block; 
+	}
+	#critic{
+		width:30%;
+	}
+	.topiclinks {
+		font-size: 11px;
+		padding-bottom: 0;
+	}
+	#first {
+		padding: 0;
+		margin-top: 0;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	h2{
+		font-size: 20px;
+	}
+	h3{
+		font-size: 15px;
+	}
+	h5{
+		font-size: 15px;
+		line-height: 20px;
+	}
+	h4{
+		font-size: 14px;
+	}
+	.topiclinks {
+		font-size: 10px;
+		padding-bottom: 0;
+	}
+	#first {
+		padding: 0;
+		margin-top: 0;
+	}
+	.topic{
+		padding-left: 38px;
+		padding-right: 38px;
+		font-size: 11px;
+	}
+	.link{
+		width:21%;
+	}
+	#critic{
+		width:20%;
+	}
+	.small{
+		width: 14%;
+	}
+	.totop{
+		font-size:7px;
+	}
+}
+
+@media screen and (min-width: 1430px) {
+	#plot {
+		font-size: 18px;
+		padding-bottom: 40px;
+	}
+}
+
+@media screen and (min-width: 1890px) {
+	#plot {
+		font-size: 24px;
+		padding-bottom: 40px;
+	}
+	.link {
+		width:18%;
+	}
+	.small{
+		width:15%;
+	}
+	#critic {
+		width:24%;
+	}
+	body{
+		font-size: 28px;
+	}
+	h2{
+		font-size: 70px;
+	}
+	h3{
+		font-size: 45px;
+	}
+	h5{
+		font-size: 45px;
+		line-height: 50px;
+	}
+	h4{
+		font-size: 30px;
+	}
+	.text{
+		font-size: 30px;
+	}
+}
+
+@media screen and (min-width: 1730px) {
+	#plot {
+		font-size: 20px;
+		padding-bottom: 40px;
+	}
+}
+
+@media screen and (min-width: 1800px) {
+	#plot {
+		font-size: 24px;
+		padding-bottom: 50px;
+	}
+}
+
+@media screen and (min-width: 1950px) {
+	#plot {
+		font-size: 26px;
+		padding-bottom: 40px;
+	}
+}
+
+@media screen and (min-width: 2000px) {
+	#plot {
+		font-size: 26px;
+	}
+	.text{
+		font-size: 40px;
+	}
+	h4 {
+		font-size: 45px;
+	}
+	h3{
+		font-size: 50px;
+	}
+	h2{
+		font-size: 80px;
+	}
+	.totop{
+		font-size: 40px;
+	}
+}
+
+@media screen and (min-width: 1240px) {
+	#plot {
+		font-size: 14px;
+		padding-bottom: 40px;
+	}
+}
+
+@media screen and (min-width: 1370px) {
+	#plot {
+		padding-bottom: 40px;
+	}
+}
+
+@media screen and (min-width: 1500px) {
+	#plot {
+		font-size: 19px;
+		padding-bottom: 40px;
+	}
+	.credits{
+		font-size: 25px;
+		line-height: 34px;
+	}
+}
+
+@media screen and (min-width: 400px) {
+	.topic {
+		padding-left: 11%;
+		padding-right: 11%;
+	}
+}
+
+@media screen and (min-width: 2600px) {
+	.text {
+		font-size: 50px;
+		padding-bottom: 40px;
+	}
+	h2{
+		font-size: 100px;
+	}
+	h3{
+		font-size: 70px;
+	}
+	h5{
+		font-size: 60px;
+		line-height: 70px;
+	}
+	h4{
+		font-size: 55px;
+	}
+	.subtitle{
+		font-size: 40px;
+		line-height: 55px;
+	}
+	.topiclinks{
+		font-size: 60px;
+	}
+	.credits{
+		font-size: 35px;
+		line-height: 50px;
+	}
+	body{
+		font-size: 38px;
+	}
+}
+
+@media screen and (min-width: 3600px) {
+	.text {
+		font-size: 55px;
+		padding-bottom: 40px;
+	}
+	h2{
+		font-size: 120px;
+	}
+	h3{
+		font-size: 80px;
+	}
+	h5{
+		font-size: 70px;
+		line-height: 80px;
+	}
+	h4{
+		font-size: 65px;
+	}
+	.subtitle{
+		font-size: 45px;
+		line-height: 90px;
+	}
+	.topiclinks{
+		font-size: 70px;
+		padding-top:50px;
+	}
+	.credits{
+		font-size: 40px;
+		line-height: 56px;
+	}
+}
